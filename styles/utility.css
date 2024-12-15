@@ -1,0 +1,12 @@
+.text-color-secondary {
+  color: var(--text-color-secondary);
+}
+
+.link-secondary {
+  color: var(--text-color-primary);
+
+  &:hover {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+  }
+}

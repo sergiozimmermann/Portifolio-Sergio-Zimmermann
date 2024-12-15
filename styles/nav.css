@@ -1,0 +1,46 @@
+nav {
+  background-color: #000;
+  display: flex;
+  padding-inline: 30px;
+  justify-content: space-between;
+  height: 60px;
+
+  #home {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 36px;
+      height: 36px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  #menus {
+    display: flex;
+    gap: 60px;
+
+    .menu {
+      cursor: pointer;
+      height: 100%;
+      align-content: center;
+
+      a {
+        color: var(--text-color-primary);
+      }
+
+      &:hover {
+        a {
+          text-decoration: none;
+          color: var(--text-color-secondary);
+        }
+      }
+    }
+  }
+
+  #links {
+    display: flex;
+    align-items: center;
+  }
+}
