@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px 15px;
+  gap: 16px;
+
+  #img-profile {
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  #decription-profile {
+    width: 70%;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  #primary-skills,
+  #secondary-skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    .skill {
+      display: flex;
+      align-items: center;
+      width: 180px;
+
+      background-color: var(--bg-secondary);
+
+      gap: 10px;
+      padding: 5px 20px;
+      border-radius: 50px;
+
+      img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+      }
+    }
+
+    .skill-rounded {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}
