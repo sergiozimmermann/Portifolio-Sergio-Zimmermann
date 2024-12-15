@@ -14,3 +14,7 @@
 .text-sm {
   font: var(--text-sm);
 }
+
+.svg-icon path {
+  fill: var(--text-color-primary);
+}

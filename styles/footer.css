@@ -1,0 +1,32 @@
+footer {
+  #contatos {
+    display: flex;
+    justify-content: center;
+
+    gap: 30px;
+    padding: 20px 30px;
+
+    .contato {
+      display: flex;
+      align-items: center;
+
+      gap: 2.5px;
+
+      span {
+        text-transform: capitalize;
+      }
+
+      cursor: pointer;
+
+      &:hover {
+        .svg-icon path {
+          fill: var(--text-color-secondary);
+        }
+
+        span {
+          color: var(--text-color-secondary);
+        }
+      }
+    }
+  }
+}
