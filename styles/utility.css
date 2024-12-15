@@ -10,3 +10,7 @@
     color: var(--text-color-secondary);
   }
 }
+
+.text-sm {
+  font: var(--text-sm);
+}
