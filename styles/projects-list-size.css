@@ -1,0 +1,49 @@
+#projects-list-inline {
+  #treinos-gym {
+    .img-wrapper:hover {
+      .project-img {
+        width: 189px !important;
+      }
+    }
+  }
+
+  #portal-noticias-rocketseat {
+    .img-wrapper:hover {
+      .project-img {
+        height: 228px !important;
+      }
+    }
+  }
+
+  #desafio-local-turístico {
+    .img-wrapper:hover {
+      .project-img {
+        height: 225px !important;
+      }
+    }
+  }
+
+  #projeto-travelgram-rocketseat {
+    .img-wrapper:hover {
+      .project-img {
+        height: 228px !important;
+      }
+    }
+  }
+
+  #pagina-receita-rocketseat {
+    .img-wrapper:hover {
+      .project-img {
+        height: 228px !important;
+      }
+    }
+  }
+
+  #financeiro-custos-projetos-react {
+    .img-wrapper:hover {
+      .project-img {
+        height: 228px !important;
+      }
+    }
+  }
+}

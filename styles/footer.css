@@ -1,10 +1,14 @@
 footer {
-  #contatos {
+  margin-top: 10px;
+
+  & #contatos {
     display: flex;
     justify-content: center;
 
+    background-color: var(--bg-secondary);
+
     gap: 30px;
-    padding: 20px 30px;
+    padding-block: 10px;
 
     .contato {
       display: flex;
