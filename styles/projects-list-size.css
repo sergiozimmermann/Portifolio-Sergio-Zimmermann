@@ -39,6 +39,14 @@
     }
   }
 
+  #formulario-matricula-rocketseat {
+    .img-wrapper:hover {
+      .project-img {
+        height: 220px !important;
+      }
+    }
+  }
+
   #financeiro-custos-projetos-react {
     .img-wrapper:hover {
       .project-img {
