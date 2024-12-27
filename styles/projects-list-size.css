@@ -7,6 +7,14 @@
     }
   }
 
+  #desafio-formulario-convite-rocketseat {
+    .img-wrapper:hover {
+      .project-img {
+        height: 220px !important;
+      }
+    }
+  }
+
   #portal-noticias-rocketseat {
     .img-wrapper:hover {
       .project-img {
